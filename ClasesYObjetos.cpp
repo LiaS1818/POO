@@ -28,11 +28,11 @@ Animal::Animal(string _onomatopeya, string _grupo, int _npatas){
 }
 
 void Animal::saltar(){
-    cout<<"Que animal salta, hace "<<onomatomeya<<" y tiene "<<npatas<<" patas?"<<endl; 
+    cout<<"Este animal esta saltando, hace "<<onomatomeya<<" y tiene "<<npatas<<" patas?"<<endl; 
 }
 
 void Animal::correr(){
-    cout<<"Que animal de "<<npatas<<", es el mas rapido y es "<<grupo<<"?"<<endl;
+    cout<<"Este  animal de esta corriendo, tiene "<<npatas<<", es el mas rapido y es "<<grupo<<"?"<<endl;
 }
 
 int main(){
